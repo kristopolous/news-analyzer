@@ -1,0 +1,59 @@
+[ 
+  {
+    "name": "In These Times",
+    "site": "http://inthesetimes.com/",
+    "rss": "http://inthesetimes.com/rss"
+  },{
+    "name": "Huffington Post",
+    "site": "http://www.huffingtonpost.com/",
+    "rss": "http://www.huffingtonpost.com/feeds/index.xml"
+  },{
+    "name": "CNN",
+    "site": "https://www.cnn.com",
+    "rss": "http://rss.cnn.com/rss/cnn_topstories.rss"
+  },{
+    "name": "BBC",
+    "site": "https://www.bbc.co.uk/news",
+    "rss": false
+  },{
+    "name": "Russia Today",
+    "site": "https://www.rt.com",
+    "rss": "https://www.rt.com/rss/"
+  },{
+    "name": "Breitbart",
+    "site": "http://www.breitbart.com/",
+    "rss": "http://feeds.feedburner.com/breitbart"
+  },{
+    "name": "Al Jazeera",
+    "site": "http://www.aljazeera.com/",
+    "rss": "http://www.aljazeera.com/xml/rss/all.xml"
+  },{
+    "name": "World Net Daily",
+    "site": "http://www.wnd.com/",
+    "rss": "http://www.wnd.com/category/front-page/feed/"
+  },{
+    "name": "Drudge Report",
+    "site": "http://drudgereport.com/",
+    "rss": "http://feeds.feedburner.com/DrudgeReportFeed"
+  },{
+    "name": "New York Times",
+    "site": "https://www.nytimes.com/",
+    "rss": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+  },{
+    "name": "Wall Street Journal",
+    "site": "https://www.wsj.com/",
+    "rss": "http://www.wsj.com/xml/rss/3_7085.xml"
+  },{
+    "name": "Washington Post",
+    "site": "https://www.washingtonpost.com/",
+    "rss": "http://feeds.washingtonpost.com/rss/national"
+  },{
+    "name": "USA Today",
+    "site": "http://www.usatoday.com/",
+    "rss": "http://rssfeeds.usatoday.com/usatoday-NewsTopStories"
+  },{
+    "name": "The Intercept",
+    "site": "https://theintercept.com/",
+    "rss": "https://theintercept.com/feed/?lang=en"
+  }
+]
