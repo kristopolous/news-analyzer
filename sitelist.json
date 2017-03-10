@@ -16,6 +16,10 @@
     "site": "https://www.bbc.co.uk/news",
     "rss": false
   },{
+    "name": "The Hill",
+    "site": "http://thehill.com",
+    "rss": "http://thehill.com/rss/syndicator/19109"
+  },{
     "name": "Russia Today",
     "site": "https://www.rt.com",
     "rss": "https://www.rt.com/rss/"
@@ -47,6 +51,18 @@
     "name": "Washington Post",
     "site": "https://www.washingtonpost.com/",
     "rss": "http://feeds.washingtonpost.com/rss/national"
+  },{
+    "name": "CNBC",
+    "site": "http://www.cnbc.com",
+    "rss": "http://www.cnbc.com/id/100003114/device/rss/rss.html"
+  },{
+    "name": "Zero Hedge",
+    "site": "http://www.zerohedge.com/",
+    "rss": "http://feeds.feedburner.com/zerohedge/feed?format=xml"
+  },{
+    "name": "US News and World Report",
+    "site": "https://www.usnews.com/",
+    "rss": "https://www.usnews.com/rss/news"
   },{
     "name": "USA Today",
     "site": "http://www.usatoday.com/",
