@@ -13,17 +13,26 @@ os.mkdir(basepath)
 def stub(what):
     return re.sub(' ', '_', what).lower()
 
+print(now)
 with open('sitelist.json', 'r') as sitelist:
     siteMap = json.load(sitelist)
     for site in siteMap:
+        if not 'name' in site:
+            continue
+
+        if site['name'] == "STOP":
+            break
+
         if not site['rss']:
             continue
 
-        print("%s: %s" %(site['name'], site['rss']) )
-        data = str(requests.get( site['rss'] ).content)
-        path = "%s%s" % (basepath, stub( site['name'] ))
+        try:
+            print("%s: %s" %(site['name'], site['rss']) )
+            data = requests.get( site['rss'], headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0'} ).content
+            path = "%s%s" % (basepath, stub( site['name'] ))
 
-        with open(path, 'w') as f:
-             f.write(data)
-
+            with open(path, 'wb') as f:
+                 f.write(data)
+        except:
+            pass
 
