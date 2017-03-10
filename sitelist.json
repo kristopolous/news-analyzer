@@ -64,6 +64,14 @@
     "site": "https://www.usnews.com/",
     "rss": "https://www.usnews.com/rss/news"
   },{
+    "name": "Daily Caller",
+    "site": "http://dailycaller.com",
+    "rss": "http://feeds.feedburner.com/dailycaller?format=xml"
+  },{
+    "name": "Newsmax",
+    "site": "http://www.newsmax.com",
+    "rss": "http://nm.nmcdn.us/rss/Newsfront/16/"
+  },{
     "name": "USA Today",
     "site": "http://www.usatoday.com/",
     "rss": "http://rssfeeds.usatoday.com/usatoday-NewsTopStories"
