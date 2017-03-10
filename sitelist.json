@@ -1,49 +1,81 @@
 [ 
   {
   },{
-    "name": "In These Times",
-    "site": "http://inthesetimes.com/",
-    "rss": "http://inthesetimes.com/rss"
-  },{
-    "name": "Huffington Post",
-    "site": "http://www.huffingtonpost.com/",
-    "rss": "http://www.huffingtonpost.com/feeds/index.xml"
-  },{
-    "name": "CNN",
-    "site": "https://www.cnn.com",
-    "rss": "http://rss.cnn.com/rss/cnn_topstories.rss"
+    "name": "Al Jazeera",
+    "site": "http://www.aljazeera.com/",
+    "rss": "http://www.aljazeera.com/xml/rss/all.xml"
   },{
     "name": "BBC",
     "site": "https://www.bbc.co.uk/news",
     "rss": false
   },{
-    "name": "The Hill",
-    "site": "http://thehill.com",
-    "rss": "http://thehill.com/rss/syndicator/19109"
-  },{
-    "name": "Russia Today",
-    "site": "https://www.rt.com",
-    "rss": "https://www.rt.com/rss/"
-  },{
     "name": "Breitbart",
     "site": "http://www.breitbart.com/",
     "rss": "http://feeds.feedburner.com/breitbart"
   },{
-    "name": "Al Jazeera",
-    "site": "http://www.aljazeera.com/",
-    "rss": "http://www.aljazeera.com/xml/rss/all.xml"
+    "name": "CNBC",
+    "site": "http://www.cnbc.com",
+    "rss": "http://www.cnbc.com/id/100003114/device/rss/rss.html"
   },{
-    "name": "World Net Daily",
-    "site": "http://www.wnd.com/",
-    "rss": "http://www.wnd.com/category/front-page/feed/"
+    "name": "CNN",
+    "site": "https://www.cnn.com",
+    "rss": "http://rss.cnn.com/rss/cnn_topstories.rss"
+  },{
+    "name": "Christian Science Monitor",
+    "site": "http://www.csmonitor.com",
+    "rss": "http://rss.csmonitor.com/feeds/csm?format=xml"
+  },{
+    "name": "Daily Caller",
+    "site": "http://dailycaller.com",
+    "rss": "http://feeds.feedburner.com/dailycaller?format=xml"
   },{
     "name": "Drudge Report",
     "site": "http://drudgereport.com/",
     "rss": "http://feeds.feedburner.com/DrudgeReportFeed"
   },{
+    "name": "Huffington Post",
+    "site": "http://www.huffingtonpost.com/",
+    "rss": "http://www.huffingtonpost.com/feeds/index.xml"
+  },{
+    "name": "In These Times",
+    "site": "http://inthesetimes.com/",
+    "rss": "http://inthesetimes.com/rss"
+  },{
     "name": "New York Times",
     "site": "https://www.nytimes.com/",
     "rss": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+  },{
+    "name": "Newsmax",
+    "site": "http://www.newsmax.com",
+    "rss": "http://nm.nmcdn.us/rss/Newsfront/16/"
+  },{
+    "name": "Reuters",
+    "site": "http://www.reuters.com/",
+    "rss": "http://feeds.reuters.com/reuters/topNews?format=xml"
+  },{
+    "name": "Russia Today",
+    "site": "https://www.rt.com",
+    "rss": "https://www.rt.com/rss/"
+  },{
+    "name": "The Hill",
+    "site": "http://thehill.com",
+    "rss": "http://thehill.com/rss/syndicator/19109"
+  },{
+    "name": "The Intercept",
+    "site": "https://theintercept.com/",
+    "rss": "https://theintercept.com/feed/?lang=en"
+  },{
+    "name": "Time",
+    "site": "http://time.com/",
+    "rss": "http://feeds.feedburner.com/time/topstories?format=xml"
+  },{
+    "name": "US News and World Report",
+    "site": "https://www.usnews.com/",
+    "rss": "https://www.usnews.com/rss/news"
+  },{
+    "name": "USA Today",
+    "site": "http://www.usatoday.com/",
+    "rss": "http://rssfeeds.usatoday.com/usatoday-newstopstories&x=1"
   },{
     "name": "Wall Street Journal",
     "site": "https://www.wsj.com/",
@@ -53,32 +85,13 @@
     "site": "https://www.washingtonpost.com/",
     "rss": "http://feeds.washingtonpost.com/rss/national"
   },{
-    "name": "CNBC",
-    "site": "http://www.cnbc.com",
-    "rss": "http://www.cnbc.com/id/100003114/device/rss/rss.html"
+    "name": "World Net Daily",
+    "site": "http://www.wnd.com/",
+    "rss": "http://www.wnd.com/category/front-page/feed/"
   },{
     "name": "Zero Hedge",
     "site": "http://www.zerohedge.com/",
     "rss": "http://feeds.feedburner.com/zerohedge/feed?format=xml"
   },{
-    "name": "US News and World Report",
-    "site": "https://www.usnews.com/",
-    "rss": "https://www.usnews.com/rss/news"
-  },{
-    "name": "Daily Caller",
-    "site": "http://dailycaller.com",
-    "rss": "http://feeds.feedburner.com/dailycaller?format=xml"
-  },{
-    "name": "Newsmax",
-    "site": "http://www.newsmax.com",
-    "rss": "http://nm.nmcdn.us/rss/Newsfront/16/"
-  },{
-    "name": "USA Today",
-    "site": "http://www.usatoday.com/",
-    "rss": "http://rssfeeds.usatoday.com/usatoday-newstopstories&x=1"
-  },{
-    "name": "The Intercept",
-    "site": "https://theintercept.com/",
-    "rss": "https://theintercept.com/feed/?lang=en"
   }
 ]
