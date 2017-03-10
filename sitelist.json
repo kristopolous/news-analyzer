@@ -1,5 +1,6 @@
 [ 
   {
+  },{
     "name": "In These Times",
     "site": "http://inthesetimes.com/",
     "rss": "http://inthesetimes.com/rss"
@@ -74,7 +75,7 @@
   },{
     "name": "USA Today",
     "site": "http://www.usatoday.com/",
-    "rss": "http://rssfeeds.usatoday.com/usatoday-NewsTopStories"
+    "rss": "http://rssfeeds.usatoday.com/usatoday-newstopstories&x=1"
   },{
     "name": "The Intercept",
     "site": "https://theintercept.com/",
