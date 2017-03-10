@@ -27,26 +27,3 @@ A more accurate model would depict an enumeration of perspectives on a specific 
 
 This approach permits for both predictive entanglement and disintanglement.
 
-### Example 1
-
-For simplicity purposes, we'll binary classify (for/against) a number of issues, deal with their permutation and then show how the dominant models fail and the more direct ones succeed.
-
-The issues will be gun rights, immigration, and antiterrorism.  An enumeration of each position is as follows:
-
-  * guns: "for" means acquisition, storage, and use of firearms should have fewer restrictions. "against" is the opposite.
-  * immigration: "for" means paths to citizenship should be expediated and quotas such as lottery system should be eliminated. "against" is the opposite.
-  * antiterrorism: "for" means granting power to the state to surveille and detain without oversight. "against" means the state shouldn't have such privileges.
-
-We'll try to bucket all enumerations using a number of political labels, the label 'X' will mean the "for" category.
-
-  
-guns  immigration antiterrorism 
-      
-    x 
-  x   liberal
-  x x libertarian
-x     
-x   x conservative
-x x   anarchism
-x x x ??
-
