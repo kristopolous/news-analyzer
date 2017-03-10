@@ -16,6 +16,10 @@
     "site": "http://www.breitbart.com/",
     "rss": "http://feeds.feedburner.com/breitbart"
   },{
+    "name": "CBC",
+    "site": "http://www.cbc.ca/news",
+    "rss": "http://www.cbc.ca/cmlink/rss-topstories"
+  },{
     "name": "CNBC",
     "site": "http://www.cnbc.com",
     "rss": "http://www.cnbc.com/id/100003114/device/rss/rss.html"
@@ -28,25 +32,51 @@
     "site": "http://www.csmonitor.com",
     "rss": "http://rss.csmonitor.com/feeds/csm?format=xml"
   },{
+    "name": "Conservative Review",
+    "site": "https://www.conservativereview.com/",
+    "twitter": "https://twitter.com/cr"
+  },{
     "name": "Daily Caller",
     "site": "http://dailycaller.com",
     "rss": "http://feeds.feedburner.com/dailycaller?format=xml"
+  },{
+    "name": "Daily Lion",
+    "site": "http://thedailylion.com/"
   },{
     "name": "Daily Mail",
     "site": "http://www.dailymail.co.uk/ushome/index.html",
     "rss": "http://www.dailymail.co.uk/news/index.rss"
   },{
+    "name": "Daily Wire",
+    "site": "http://www.dailywire.com/",
+    "rss": "http://www.dailywire.com/rss.xml"
+  },{
     "name": "Drudge Report",
     "site": "http://drudgereport.com/",
     "rss": "http://feeds.feedburner.com/DrudgeReportFeed"
+  },{
+    "name": "Free Beacon",
+    "site": "http://freebeacon.com/",
+    "rss": "http://feeds.feedburner.com/freebeacon?format=xml"
+  },{
+    "name": "Hot Air",
+    "site": "http://hotair.com/",
+    "rss": "http://feeds.feedburner.com/hotair/main"
   },{
     "name": "Huffington Post",
     "site": "http://www.huffingtonpost.com/",
     "rss": "http://www.huffingtonpost.com/feeds/index.xml"
   },{
+    "name": "Human Events",
+    "site": "http://humanevents.com/",
+    "rss": "http://humanevents.com/feed/"
+  },{
     "name": "In These Times",
     "site": "http://inthesetimes.com/",
     "rss": "http://inthesetimes.com/rss"
+  },{
+    "name": "National Review",
+    "site": "http://www.nationalreview.com/"
   },{
     "name": "New York Times",
     "site": "https://www.nytimes.com/",
@@ -55,6 +85,13 @@
     "name": "Newsmax",
     "site": "http://www.newsmax.com",
     "rss": "http://nm.nmcdn.us/rss/Newsfront/16/"
+  },{
+    "name": "PJ Media",
+    "site": "https://pjmedia.com/"
+  },{
+    "name": "Red State",
+    "site": "http://www.redstate.com/",
+    "rss": "http://www.redstate.com/feed/"
   },{
     "name": "Reuters",
     "site": "http://www.reuters.com/",
@@ -80,6 +117,14 @@
     "site": "http://time.com/",
     "rss": "http://feeds.feedburner.com/time/topstories?format=xml"
   },{
+    "name": "Town Hall",
+    "site": "https://townhall.com/",
+    "rss": "https://townhall.com/api/openaccess/news/"
+  },{
+    "name": "Truth Revolt",
+    "site": "http://www.truthrevolt.org/",
+    "rss": "http://www.truthrevolt.org/rss.xml"
+  },{
     "name": "US News and World Report",
     "site": "https://www.usnews.com/",
     "rss": "https://www.usnews.com/rss/news"
@@ -92,9 +137,16 @@
     "site": "https://www.wsj.com/",
     "rss": "http://www.wsj.com/xml/rss/3_7085.xml"
   },{
+    "name": "Washington Examiner",
+    "site": "https://www.washingtonexaminer.com"
+  },{
     "name": "Washington Post",
     "site": "https://www.washingtonpost.com/",
     "rss": "http://feeds.washingtonpost.com/rss/national"
+  },{
+    "name": "Washington Times",
+    "site": "http://www.washingtontimes.com/",
+    "rss": "http://www.washingtontimes.com/feeds/"
   },{
     "name": "World Net Daily",
     "site": "http://www.wnd.com/",
