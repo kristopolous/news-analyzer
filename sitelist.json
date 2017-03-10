@@ -1,13 +1,16 @@
 [ 
   {
   },{
+    "name": "ABC",
+    "site": "http://abcnews.go.com/",
+    "rss": "http://feeds.abcnews.com/abcnews/topstories"
+  },{
     "name": "Al Jazeera",
     "site": "http://www.aljazeera.com/",
     "rss": "http://www.aljazeera.com/xml/rss/all.xml"
   },{
     "name": "BBC",
-    "site": "https://www.bbc.co.uk/news",
-    "rss": false
+    "site": "https://www.bbc.co.uk/news"
   },{
     "name": "Breitbart",
     "site": "http://www.breitbart.com/",
@@ -18,7 +21,7 @@
     "rss": "http://www.cnbc.com/id/100003114/device/rss/rss.html"
   },{
     "name": "CNN",
-    "site": "https://www.cnn.com",
+    "site": "http://m.cnn.com/",
     "rss": "http://rss.cnn.com/rss/cnn_topstories.rss"
   },{
     "name": "Christian Science Monitor",
@@ -28,6 +31,10 @@
     "name": "Daily Caller",
     "site": "http://dailycaller.com",
     "rss": "http://feeds.feedburner.com/dailycaller?format=xml"
+  },{
+    "name": "Daily Mail",
+    "site": "http://www.dailymail.co.uk/ushome/index.html",
+    "rss": "http://www.dailymail.co.uk/news/index.rss"
   },{
     "name": "Drudge Report",
     "site": "http://drudgereport.com/",
@@ -60,6 +67,10 @@
     "name": "The Hill",
     "site": "http://thehill.com",
     "rss": "http://thehill.com/rss/syndicator/19109"
+  },{
+    "name": "The Guardian",
+    "site": "https://www.theguardian.com/us/",
+    "rss": "https://www.theguardian.com/us/rss"
   },{
     "name": "The Intercept",
     "site": "https://theintercept.com/",

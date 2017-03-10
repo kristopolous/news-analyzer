@@ -2,6 +2,9 @@
 
 while [ 0 ]; do
   ./pull.py
-  sleep 900
+  for i in `seq 90 -1 1`; do
+    echo -n "$i "
+    sleep 10
+  done
 done
 
