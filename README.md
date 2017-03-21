@@ -27,3 +27,13 @@ A more accurate model would depict an enumeration of perspectives on a specific 
 
 This approach permits for both predictive entanglement and disintanglement.
 
+## notes
+
+checksum for unique entries
+
+important columns:
+
+  * source
+  * checksum
+  * date
+  * payload
