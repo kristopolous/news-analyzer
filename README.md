@@ -17,6 +17,10 @@ The theory is being able to reliably quantify these things can lead to a predict
 The magnitude of a news event is the computed deviation of its coverage from the predicted model.
 
 
+The long term intentions here are to be able to automate and historically map the chronicling of a news story
+
+Optimistically, the goals are to be able to identify fractures in coverage and the introduction of bias, spin, and frame.
+
 ## Rationale
 
 The two dominant media classification vectors of truthfulness and political bias are both coarse and inaccurately  decreed from a single opinion or crowdsourced.
