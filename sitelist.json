@@ -142,7 +142,7 @@
   },{
     "name": "Washington Times",
     "site": "http://www.washingtontimes.com/",
-    "rss": "http://www.washingtontimes.com/feeds/"
+    "rss": "http://www.washingtontimes.com/rss/headlines/news/"
   },{
     "name": "World Net Daily",
     "site": "http://www.wnd.com/",
