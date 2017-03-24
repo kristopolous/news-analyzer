@@ -4,7 +4,8 @@ import binascii
 import sqlite3
 import glob
 import os
-from lxml import etree
+import re
+from lxml import etree, objectify
 from StringIO import StringIO
 
 connMap = {}
@@ -39,25 +40,32 @@ for d in sorted(fileList):
         data = handle.read()
 
         try:
+            data = re.sub(' xmlns="[^"]+"', '', data, count=1)
             root = etree.parse(StringIO(data))
-        except:
-            print "no parse", feed_path
+
+            itemList = root.findall('.//item')
+
+            if len(itemList) > 0:
+                for x in itemList:
+                    item = etree.tostring(x)
+                    md5 = hashlib.md5(item).hexdigest()
+                    md5 = binascii.b2a_base64(md5.decode('hex')).strip('=\n')
+                    additem(unix_ts=unix_ts, source=source, md5=md5, text=item)
+
+                handle.close()
+                os.unlink(feed_path)
+                
+            else:
+                root = root.getroot()
+                etree.cleanup_namespaces(root)
+                objectify.deannotate(root, cleanup_namespaces=True)
+                print [ x.tag for x in root.findall('.//*item') ]
+                print "oh no", feed_path
+                handle.close()
+
+        except ex:
+            print "no parse", feed_path, ex
             next
-
-        itemList = root.findall('.//item')
-
-        if len(itemList) > 0:
-            for x in itemList:
-                item = etree.tostring(x)
-                md5 = hashlib.md5(item).hexdigest()
-                md5 = binascii.b2a_base64(md5.decode('hex')).strip('=\n')
-                additem(unix_ts=unix_ts, source=source, md5=md5, text=item)
-
-            handle.close()
-            
-        else:
-            print "oh no", feed_path
-            handle.close()
 
 for c, conn in connMap.values():
     conn.commit()
