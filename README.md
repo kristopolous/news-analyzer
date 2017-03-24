@@ -41,3 +41,27 @@ important columns:
   * checksum
   * date
   * payload
+
+## HTML scraping
+Mobile vs. Desktop
+render in phantomjs
+
+Record:
+
+  * top/left
+  * height/width
+  * content
+
+### Information loss
+It may be better to hold on to the HTML for now to avoid potential
+information loss:
+
+  * text size, color, and weight
+  * image dimensions
+
+concerns over file-system limits
+have an articles db
+
+  meta information can change
+
+  In one test, taking out all the non-article related stuff reduced the file-size by 93%. This isn't only a matter of saving space, but it's also a matter of cutting out noise
