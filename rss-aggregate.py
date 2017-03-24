@@ -37,7 +37,7 @@ for d in sorted(fileList):
     for feed_path in glob.glob('%s/*xml' % d):
         source = feed_path.split('/')[-1][:-4]
         handle = open(feed_path)
-        data = handle.read()
+        data = handle.read().strip()
 
         try:
             data = re.sub(' xmlns="[^"]+"', '', data, count=1)
@@ -63,7 +63,7 @@ for d in sorted(fileList):
                 print "oh no", feed_path
                 handle.close()
 
-        except ex:
+        except Exception as ex:
             print "no parse", feed_path, ex
             next
 
